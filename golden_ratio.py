@@ -8,4 +8,4 @@ for i in range(0,n):
 print("series are",fiblist)
 #computing the ratio of successive terms in the list of fibonacci numbers
 gratio=[fiblist[i]/float(fiblist[i-1]) for i in range(2,len(fiblist))]
-print("golden ratio :",gratio)#new
+print("golden ratio :",gratio)
